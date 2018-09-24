@@ -3,11 +3,11 @@ showSlides(slideindex);
 
 //next/previous
 function plusSlides(n) {
-    showSlides(slideindex +=n)    
+    showSlides(slideindex +=n);    
 }
 //thumbnail image controls
 function currentSlide(n){
-    showSlides(slideIndex = n)    
+    showSlides(slideIndex = n);    
 }
 
 function showSlides(n){
