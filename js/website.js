@@ -2,7 +2,7 @@ var slideindex = 1;
 showSlides(slideindex);
 
 //next/previous
-function changeSlides(n) {
+function plusSlides(n) {
     showSlides(slideindex +=n)    
 }
 //thumbnail image controls
