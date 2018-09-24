@@ -37,33 +37,35 @@
             <!--Slideshow container-->
             <div class="slideshow-container">
                 <!--Images with number and caption-->
-                <div class="mySlides fade">
+                <div class="mySlides">
                     <div class="numberText">1 / 3</div>
                     <img src="img1_cat.jpg" style="width:100%">
                     <div class="text">Cat</div>
                 </div>
                 
-                <div class="mySlides fade">
+                <div class="mySlides">
                     <div class="numberText">2 / 3</div>
                     <img src="img2_landscape.png" style="width:100%">
                     <div class="text">Landscape</div>
                 </div>
                 
-                <div class="mySlides fade">
+                <div class="mySlides">
                     <div class="numberText">3 / 3</div>
                     <img src="img3_tree.jpg" style="width:100%">
                     <div class="text">Tree</div>
                 </div>
                     
                 <!-- Next and previous buttons-->
-                <a class="Prev" onClick="plusSlides(-1)">&#10094;</a>
-                <a class="Next" onClick="plusSlides(1)">&#10095;</a>
+                <button class="Prev" onClick="plusSlides(-1)">&#10094;</button>
+                <button class="Next" onClick="plusSlides(1)">&#10095;</button>
             </div>
             <br>
 
             <!-- Nav dots-->
-            <span class="dot" onclick="currentSlide(1)"></span>
+            <div style="text-align:center">
+            <span class="dot" onClick="currentSlide(1)"></span>
             <span class="dot" onClick="currentSlide(2)"></span>
             <span class="dot" onClick="currentSlide(3)"></span>
+            </div>
           </body>
 </html>
